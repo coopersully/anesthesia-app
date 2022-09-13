@@ -6,6 +6,7 @@
 //
 
 // Cooper was here
+// Merritt was here
 import SwiftUI
 
 struct ContentView: View {
