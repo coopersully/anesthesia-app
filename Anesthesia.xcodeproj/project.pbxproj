@@ -13,10 +13,14 @@
 		1E466C3828C7AD5A003C49CC /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E466C3728C7AD5A003C49CC /* Tests_macOSLaunchTests.swift */; };
 		1E466C3928C7AD5A003C49CC /* AnesthesiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E466C1128C7AD56003C49CC /* AnesthesiaApp.swift */; };
 		1E466C3A28C7AD5A003C49CC /* AnesthesiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E466C1128C7AD56003C49CC /* AnesthesiaApp.swift */; };
-		1E466C3B28C7AD5A003C49CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E466C1228C7AD56003C49CC /* ContentView.swift */; };
-		1E466C3C28C7AD5A003C49CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E466C1228C7AD56003C49CC /* ContentView.swift */; };
+		1E466C3B28C7AD5A003C49CC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E466C1228C7AD56003C49CC /* LoginView.swift */; };
+		1E466C3C28C7AD5A003C49CC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E466C1228C7AD56003C49CC /* LoginView.swift */; };
 		1E466C3D28C7AD5A003C49CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E466C1328C7AD59003C49CC /* Assets.xcassets */; };
 		1E466C3E28C7AD5A003C49CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E466C1328C7AD59003C49CC /* Assets.xcassets */; };
+		1E838EE928D7A62700BC1F7E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E838EE828D7A62700BC1F7E /* MainView.swift */; };
+		1E838EEA28D7A62700BC1F7E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E838EE828D7A62700BC1F7E /* MainView.swift */; };
+		1E838EEC28D7A73200BC1F7E /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E838EEB28D7A73200BC1F7E /* CreateAccountView.swift */; };
+		1E838EED28D7A73200BC1F7E /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E838EEB28D7A73200BC1F7E /* CreateAccountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,7 @@
 /* Begin PBXFileReference section */
 		1E16913928C7B250007AE596 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		1E466C1128C7AD56003C49CC /* AnesthesiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnesthesiaApp.swift; sourceTree = "<group>"; };
-		1E466C1228C7AD56003C49CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1E466C1228C7AD56003C49CC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		1E466C1328C7AD59003C49CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E466C1828C7AD59003C49CC /* Anesthesia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Anesthesia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E466C1E28C7AD59003C49CC /* Anesthesia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Anesthesia.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +54,8 @@
 		1E466C3128C7AD5A003C49CC /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E466C3528C7AD5A003C49CC /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		1E466C3728C7AD5A003C49CC /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		1E838EE828D7A62700BC1F7E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1E838EEB28D7A73200BC1F7E /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +106,9 @@
 			isa = PBXGroup;
 			children = (
 				1E466C1128C7AD56003C49CC /* AnesthesiaApp.swift */,
-				1E466C1228C7AD56003C49CC /* ContentView.swift */,
+				1E466C1228C7AD56003C49CC /* LoginView.swift */,
+				1E838EEB28D7A73200BC1F7E /* CreateAccountView.swift */,
+				1E838EE828D7A62700BC1F7E /* MainView.swift */,
 				1E466C1328C7AD59003C49CC /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -301,7 +309,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E466C3B28C7AD5A003C49CC /* ContentView.swift in Sources */,
+				1E466C3B28C7AD5A003C49CC /* LoginView.swift in Sources */,
+				1E838EE928D7A62700BC1F7E /* MainView.swift in Sources */,
+				1E838EEC28D7A73200BC1F7E /* CreateAccountView.swift in Sources */,
 				1E466C3928C7AD5A003C49CC /* AnesthesiaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,7 +320,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E466C3C28C7AD5A003C49CC /* ContentView.swift in Sources */,
+				1E466C3C28C7AD5A003C49CC /* LoginView.swift in Sources */,
+				1E838EEA28D7A62700BC1F7E /* MainView.swift in Sources */,
+				1E838EED28D7A73200BC1F7E /* CreateAccountView.swift in Sources */,
 				1E466C3A28C7AD5A003C49CC /* AnesthesiaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,10 +10,10 @@
 // Jake was here
 import SwiftUI
 
-struct ContentView: View {
+struct LoginView: View {
     
     // Login screen state variables
-    @State private var username = ""
+    @State public var username = ""
     @State private var password = ""
     @State private var wrongUsername = 0
     @State private var wrongPassword = 0
@@ -79,13 +79,11 @@ struct ContentView: View {
                         .padding(5)
                         
                         // Shown when creating an account
-                        NavigationLink(destination: Text("Creating an account is not currently an option."), isActive: $showingCreateScreen) {
-                            EmptyView()
+                        NavigationLink(destination: CreateAccountView(), isActive: $showingCreateScreen) {
                         }
                         
                         // Shown when successfully logged in
-                        NavigationLink(destination: Text("You logged in as @\(username)"), isActive: $showingLoginScreen) {
-                            EmptyView()
+                        NavigationLink(destination: MainView(), isActive: $showingLoginScreen) {
                         }
                         
                     }
@@ -128,7 +126,7 @@ struct ContentView_Previews:
     
         static var previews: some View {
             Group {
-                ContentView()
+                LoginView()
             }
         }
     
