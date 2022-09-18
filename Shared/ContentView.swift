@@ -46,6 +46,7 @@ struct ContentView: View {
                         .background(Color.black.opacity(0.05))
                         .cornerRadius(10)
                         .border(Color.red, width: CGFloat(wrongUsername))
+                        .textInputAutocapitalization(.never)
                     
                     SecureField("Password", text: $password)
                         .padding()
@@ -53,6 +54,7 @@ struct ContentView: View {
                         .background(Color.black.opacity(0.05))
                         .cornerRadius(10)
                         .border(Color.red, width: CGFloat(wrongPassword))
+                        .textInputAutocapitalization(.never)
                     
                     HStack {
                         
@@ -87,6 +89,7 @@ struct ContentView: View {
                         }
                         
                     }
+                    .padding()
                     
                     
                 }
@@ -98,13 +101,13 @@ struct ContentView: View {
     
     func attemptLogin(username: String, password: String) {
         // If the username is correct
-        if username.lowercased() == "coopersully" {
+        if username == "coopersully" {
             
             // Don't display red border around field
             wrongUsername = 0
             
             // If the password is correct
-            if password.lowercased() == "samford1841" {
+            if password == "samford1841" {
                 
                 // Don't display red border around field
                 wrongPassword = 0
