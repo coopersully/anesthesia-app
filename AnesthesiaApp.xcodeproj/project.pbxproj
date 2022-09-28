@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B12484AE28E22FC700C35718 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12484AD28E22FC700C35718 /* AppDelegate.swift */; };
+		B12484B028E22FC700C35718 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12484AF28E22FC700C35718 /* SceneDelegate.swift */; };
+		B12484B228E22FC700C35718 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12484B128E22FC700C35718 /* ViewController.swift */; };
+		B12484B528E22FC700C35718 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B12484B328E22FC700C35718 /* Main.storyboard */; };
+		B12484B828E22FC700C35718 /* AnesthesiaApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B12484B628E22FC700C35718 /* AnesthesiaApp.xcdatamodeld */; };
+		B12484BA28E22FC800C35718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B12484B928E22FC800C35718 /* Assets.xcassets */; };
+		B12484BD28E22FC800C35718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B12484BB28E22FC800C35718 /* LaunchScreen.storyboard */; };
+		B12484C828E22FC900C35718 /* AnesthesiaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12484C728E22FC900C35718 /* AnesthesiaAppTests.swift */; };
+		B12484D228E22FC900C35718 /* AnesthesiaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12484D128E22FC900C35718 /* AnesthesiaAppUITests.swift */; };
+		B12484D428E22FC900C35718 /* AnesthesiaAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12484D328E22FC900C35718 /* AnesthesiaAppUITestsLaunchTests.swift */; };
+		B12484E928E2339700C35718 /* DisclaimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12484E828E2339700C35718 /* DisclaimerViewController.swift */; };
+		B1DBEC7928E4A0EA00E3536A /* ChemicalCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DBEC7828E4A0EA00E3536A /* ChemicalCardViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B12484C428E22FC900C35718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B12484A228E22FC700C35718 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B12484A928E22FC700C35718;
+			remoteInfo = AnesthesiaApp;
+		};
+		B12484CE28E22FC900C35718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B12484A228E22FC700C35718 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B12484A928E22FC700C35718;
+			remoteInfo = AnesthesiaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B12484AA28E22FC700C35718 /* AnesthesiaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnesthesiaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B12484AD28E22FC700C35718 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B12484AF28E22FC700C35718 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B12484B128E22FC700C35718 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B12484B428E22FC700C35718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B12484B728E22FC700C35718 /* AnesthesiaApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AnesthesiaApp.xcdatamodel; sourceTree = "<group>"; };
+		B12484B928E22FC800C35718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B12484BC28E22FC800C35718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B12484BE28E22FC800C35718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B12484C328E22FC900C35718 /* AnesthesiaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnesthesiaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B12484C728E22FC900C35718 /* AnesthesiaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnesthesiaAppTests.swift; sourceTree = "<group>"; };
+		B12484CD28E22FC900C35718 /* AnesthesiaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnesthesiaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B12484D128E22FC900C35718 /* AnesthesiaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnesthesiaAppUITests.swift; sourceTree = "<group>"; };
+		B12484D328E22FC900C35718 /* AnesthesiaAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnesthesiaAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B12484E828E2339700C35718 /* DisclaimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerViewController.swift; sourceTree = "<group>"; };
+		B1DBEC7828E4A0EA00E3536A /* ChemicalCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicalCardViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B12484A728E22FC700C35718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B12484C028E22FC900C35718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B12484CA28E22FC900C35718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B12484A128E22FC700C35718 = {
+			isa = PBXGroup;
+			children = (
+				B12484AC28E22FC700C35718 /* AnesthesiaApp */,
+				B12484C628E22FC900C35718 /* AnesthesiaAppTests */,
+				B12484D028E22FC900C35718 /* AnesthesiaAppUITests */,
+				B12484AB28E22FC700C35718 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B12484AB28E22FC700C35718 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B12484AA28E22FC700C35718 /* AnesthesiaApp.app */,
+				B12484C328E22FC900C35718 /* AnesthesiaAppTests.xctest */,
+				B12484CD28E22FC900C35718 /* AnesthesiaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B12484AC28E22FC700C35718 /* AnesthesiaApp */ = {
+			isa = PBXGroup;
+			children = (
+				B12484AD28E22FC700C35718 /* AppDelegate.swift */,
+				B12484E828E2339700C35718 /* DisclaimerViewController.swift */,
+				B1DBEC7828E4A0EA00E3536A /* ChemicalCardViewController.swift */,
+				B12484AF28E22FC700C35718 /* SceneDelegate.swift */,
+				B12484B128E22FC700C35718 /* ViewController.swift */,
+				B12484B328E22FC700C35718 /* Main.storyboard */,
+				B12484B928E22FC800C35718 /* Assets.xcassets */,
+				B12484BB28E22FC800C35718 /* LaunchScreen.storyboard */,
+				B12484BE28E22FC800C35718 /* Info.plist */,
+				B12484B628E22FC700C35718 /* AnesthesiaApp.xcdatamodeld */,
+			);
+			path = AnesthesiaApp;
+			sourceTree = "<group>";
+		};
+		B12484C628E22FC900C35718 /* AnesthesiaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B12484C728E22FC900C35718 /* AnesthesiaAppTests.swift */,
+			);
+			path = AnesthesiaAppTests;
+			sourceTree = "<group>";
+		};
+		B12484D028E22FC900C35718 /* AnesthesiaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B12484D128E22FC900C35718 /* AnesthesiaAppUITests.swift */,
+				B12484D328E22FC900C35718 /* AnesthesiaAppUITestsLaunchTests.swift */,
+			);
+			path = AnesthesiaAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B12484A928E22FC700C35718 /* AnesthesiaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B12484D728E22FC900C35718 /* Build configuration list for PBXNativeTarget "AnesthesiaApp" */;
+			buildPhases = (
+				B12484A628E22FC700C35718 /* Sources */,
+				B12484A728E22FC700C35718 /* Frameworks */,
+				B12484A828E22FC700C35718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnesthesiaApp;
+			productName = AnesthesiaApp;
+			productReference = B12484AA28E22FC700C35718 /* AnesthesiaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B12484C228E22FC900C35718 /* AnesthesiaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B12484DA28E22FC900C35718 /* Build configuration list for PBXNativeTarget "AnesthesiaAppTests" */;
+			buildPhases = (
+				B12484BF28E22FC900C35718 /* Sources */,
+				B12484C028E22FC900C35718 /* Frameworks */,
+				B12484C128E22FC900C35718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B12484C528E22FC900C35718 /* PBXTargetDependency */,
+			);
+			name = AnesthesiaAppTests;
+			productName = AnesthesiaAppTests;
+			productReference = B12484C328E22FC900C35718 /* AnesthesiaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B12484CC28E22FC900C35718 /* AnesthesiaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B12484DD28E22FC900C35718 /* Build configuration list for PBXNativeTarget "AnesthesiaAppUITests" */;
+			buildPhases = (
+				B12484C928E22FC900C35718 /* Sources */,
+				B12484CA28E22FC900C35718 /* Frameworks */,
+				B12484CB28E22FC900C35718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B12484CF28E22FC900C35718 /* PBXTargetDependency */,
+			);
+			name = AnesthesiaAppUITests;
+			productName = AnesthesiaAppUITests;
+			productReference = B12484CD28E22FC900C35718 /* AnesthesiaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B12484A228E22FC700C35718 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					B12484A928E22FC700C35718 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					B12484C228E22FC900C35718 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = B12484A928E22FC700C35718;
+					};
+					B12484CC28E22FC900C35718 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = B12484A928E22FC700C35718;
+					};
+				};
+			};
+			buildConfigurationList = B12484A528E22FC700C35718 /* Build configuration list for PBXProject "AnesthesiaApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B12484A128E22FC700C35718;
+			productRefGroup = B12484AB28E22FC700C35718 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B12484A928E22FC700C35718 /* AnesthesiaApp */,
+				B12484C228E22FC900C35718 /* AnesthesiaAppTests */,
+				B12484CC28E22FC900C35718 /* AnesthesiaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B12484A828E22FC700C35718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12484BD28E22FC800C35718 /* LaunchScreen.storyboard in Resources */,
+				B12484BA28E22FC800C35718 /* Assets.xcassets in Resources */,
+				B12484B528E22FC700C35718 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B12484C128E22FC900C35718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B12484CB28E22FC900C35718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B12484A628E22FC700C35718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1DBEC7928E4A0EA00E3536A /* ChemicalCardViewController.swift in Sources */,
+				B12484B828E22FC700C35718 /* AnesthesiaApp.xcdatamodeld in Sources */,
+				B12484B228E22FC700C35718 /* ViewController.swift in Sources */,
+				B12484AE28E22FC700C35718 /* AppDelegate.swift in Sources */,
+				B12484E928E2339700C35718 /* DisclaimerViewController.swift in Sources */,
+				B12484B028E22FC700C35718 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B12484BF28E22FC900C35718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12484C828E22FC900C35718 /* AnesthesiaAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B12484C928E22FC900C35718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12484D228E22FC900C35718 /* AnesthesiaAppUITests.swift in Sources */,
+				B12484D428E22FC900C35718 /* AnesthesiaAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B12484C528E22FC900C35718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B12484A928E22FC700C35718 /* AnesthesiaApp */;
+			targetProxy = B12484C428E22FC900C35718 /* PBXContainerItemProxy */;
+		};
+		B12484CF28E22FC900C35718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B12484A928E22FC700C35718 /* AnesthesiaApp */;
+			targetProxy = B12484CE28E22FC900C35718 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B12484B328E22FC700C35718 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B12484B428E22FC700C35718 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B12484BB28E22FC800C35718 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B12484BC28E22FC800C35718 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B12484D528E22FC900C35718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B12484D628E22FC900C35718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B12484D828E22FC900C35718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnesthesiaApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JakeMoultrie.AnesthesiaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B12484D928E22FC900C35718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnesthesiaApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JakeMoultrie.AnesthesiaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B12484DB28E22FC900C35718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JakeMoultrie.AnesthesiaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnesthesiaApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnesthesiaApp";
+			};
+			name = Debug;
+		};
+		B12484DC28E22FC900C35718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JakeMoultrie.AnesthesiaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnesthesiaApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnesthesiaApp";
+			};
+			name = Release;
+		};
+		B12484DE28E22FC900C35718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JakeMoultrie.AnesthesiaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnesthesiaApp;
+			};
+			name = Debug;
+		};
+		B12484DF28E22FC900C35718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JakeMoultrie.AnesthesiaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnesthesiaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B12484A528E22FC700C35718 /* Build configuration list for PBXProject "AnesthesiaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B12484D528E22FC900C35718 /* Debug */,
+				B12484D628E22FC900C35718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B12484D728E22FC900C35718 /* Build configuration list for PBXNativeTarget "AnesthesiaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B12484D828E22FC900C35718 /* Debug */,
+				B12484D928E22FC900C35718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B12484DA28E22FC900C35718 /* Build configuration list for PBXNativeTarget "AnesthesiaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B12484DB28E22FC900C35718 /* Debug */,
+				B12484DC28E22FC900C35718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B12484DD28E22FC900C35718 /* Build configuration list for PBXNativeTarget "AnesthesiaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B12484DE28E22FC900C35718 /* Debug */,
+				B12484DF28E22FC900C35718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B12484B628E22FC700C35718 /* AnesthesiaApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B12484B728E22FC700C35718 /* AnesthesiaApp.xcdatamodel */,
+			);
+			currentVersion = B12484B728E22FC700C35718 /* AnesthesiaApp.xcdatamodel */;
+			path = AnesthesiaApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B12484A228E22FC700C35718 /* Project object */;
+}

@@ -1,13 +1,13 @@
 //
-//  Tests_iOSLaunchTests.swift
-//  Tests iOS
+//  AnesthesiaAppUITestsLaunchTests.swift
+//  AnesthesiaAppUITests
 //
-//  Created by Cooper Sullivan on 9/6/22.
+//  Created by Jake Moultrie on 9/26/22.
 //
 
 import XCTest
 
-class Tests_iOSLaunchTests: XCTestCase {
+final class AnesthesiaAppUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
