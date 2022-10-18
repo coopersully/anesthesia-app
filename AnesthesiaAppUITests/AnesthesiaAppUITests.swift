@@ -1,13 +1,13 @@
 //
-//  Tests_macOS.swift
-//  Tests macOS
+//  AnesthesiaAppUITests.swift
+//  AnesthesiaAppUITests
 //
-//  Created by Cooper Sullivan on 9/6/22.
+//  Created by Jake Moultrie on 9/26/22.
 //
 
 import XCTest
 
-class Tests_macOS: XCTestCase {
+final class AnesthesiaAppUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
