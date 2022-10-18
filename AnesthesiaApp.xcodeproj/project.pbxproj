@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -40,7 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< Updated upstream
 		B101E33728F9CA8900F9BCD6 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+=======
+		1EB6309E28FF1F9D004AA7F2 /* DrugProfiler.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DrugProfiler.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+>>>>>>> Stashed changes
 		B12484AA28E22FC700C35718 /* AnesthesiaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnesthesiaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B12484AD28E22FC700C35718 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B12484AF28E22FC700C35718 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,7 +121,11 @@
 				B12484BB28E22FC800C35718 /* LaunchScreen.storyboard */,
 				B12484BE28E22FC800C35718 /* Info.plist */,
 				B12484B628E22FC700C35718 /* AnesthesiaApp.xcdatamodeld */,
+<<<<<<< Updated upstream
 				B101E33728F9CA8900F9BCD6 /* SearchViewController.swift */,
+=======
+				1EB6309E28FF1F9D004AA7F2 /* DrugProfiler.playground */,
+>>>>>>> Stashed changes
 			);
 			path = AnesthesiaApp;
 			sourceTree = "<group>";
@@ -219,7 +227,7 @@
 				};
 			};
 			buildConfigurationList = B12484A528E22FC700C35718 /* Build configuration list for PBXProject "AnesthesiaApp" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
