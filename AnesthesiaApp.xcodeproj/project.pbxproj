@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B101E33828F9CA8900F9BCD6 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B101E33728F9CA8900F9BCD6 /* SearchViewController.swift */; };
 		B12484AE28E22FC700C35718 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12484AD28E22FC700C35718 /* AppDelegate.swift */; };
 		B12484B028E22FC700C35718 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12484AF28E22FC700C35718 /* SceneDelegate.swift */; };
 		B12484B228E22FC700C35718 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12484B128E22FC700C35718 /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B101E33728F9CA8900F9BCD6 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		B12484AA28E22FC700C35718 /* AnesthesiaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnesthesiaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B12484AD28E22FC700C35718 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B12484AF28E22FC700C35718 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				B12484BB28E22FC800C35718 /* LaunchScreen.storyboard */,
 				B12484BE28E22FC800C35718 /* Info.plist */,
 				B12484B628E22FC700C35718 /* AnesthesiaApp.xcdatamodeld */,
+				B101E33728F9CA8900F9BCD6 /* SearchViewController.swift */,
 			);
 			path = AnesthesiaApp;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1DBEC7928E4A0EA00E3536A /* ChemicalCardViewController.swift in Sources */,
+				B101E33828F9CA8900F9BCD6 /* SearchViewController.swift in Sources */,
 				B12484B828E22FC700C35718 /* AnesthesiaApp.xcdatamodeld in Sources */,
 				B12484B228E22FC700C35718 /* ViewController.swift in Sources */,
 				B12484AE28E22FC700C35718 /* AppDelegate.swift in Sources */,

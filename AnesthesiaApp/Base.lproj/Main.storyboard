@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Un2-TN-tlG">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
@@ -8,41 +8,68 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--AppInformationViewController-->
+        <scene sceneID="sGV-Gq-8d9">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AnesthesiaApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="wER-ET-SOk" userLabel="AppInformationViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qs3-8t-14T">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="APP NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ie1-hl-jao">
-                                <rect key="frame" x="130" y="57" width="130" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="APP INFORMATION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TNr-hw-r1C">
+                                <rect key="frame" x="79" y="68" width="232" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eXC-2L-Kbp">
-                                <rect key="frame" x="210" y="165" width="150" height="62"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Still a work in progress.  This page would include the works cited page and any other preferences we want to add as we go." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2h-uw-1Hb">
+                                <rect key="frame" x="79" y="244" width="237" height="356"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkk-lT-Uae">
+                                <rect key="frame" x="150" y="118" width="90" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Back">
+                                    <color key="baseBackgroundColor" systemColor="systemBrownColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="41e-Ng-JAL" kind="presentation" modalPresentationStyle="fullScreen" id="0xt-Bo-XKO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ZmL-Oo-uRs"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                        <color key="tintColor" systemColor="systemGray5Color"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jW2-Ol-SDn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="794" y="6"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="G3R-ty-Jt9">
+            <objects>
+                <viewController id="41e-Ng-JAL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="krq-0k-8cK">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="akI-nm-KsR">
+                                <rect key="frame" x="134" y="101" width="121" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Condition">
-                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="22"/>
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="21"/>
                                     <color key="baseBackgroundColor" systemColor="systemTealColor"/>
                                 </buttonConfiguration>
                             </button>
-                            <searchBar contentMode="redraw" fixedFrame="YES" text="" translatesAutoresizingMaskIntoConstraints="NO" id="8OD-LI-d6a">
-                                <rect key="frame" x="0.0" y="237" width="390" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="barTintColor" systemColor="opaqueSeparatorColor"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="GxK-yR-KeD"/>
-                                </connections>
-                            </searchBar>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VqS-jq-JHA">
-                                <rect key="frame" x="30" y="165" width="150" height="62"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MzH-GC-Tm9">
+                                <rect key="frame" x="7" y="101" width="121" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Chemical">
@@ -50,8 +77,17 @@
                                     <color key="baseBackgroundColor" systemColor="systemTealColor"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ATC-c6-zyY">
-                                <rect key="frame" x="30" y="95" width="150" height="62"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kqa-pe-Y39">
+                                <rect key="frame" x="261" y="101" width="123" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Genotype">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
+                                    <color key="baseBackgroundColor" systemColor="systemTealColor"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JTP-TU-Sql">
+                                <rect key="frame" x="197" y="171" width="122" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Glossary">
@@ -59,8 +95,8 @@
                                     <color key="baseBackgroundColor" systemColor="systemTealColor"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DpN-Ng-rbN">
-                                <rect key="frame" x="210" y="95" width="150" height="62"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cb-ih-5sN">
+                                <rect key="frame" x="67" y="171" width="122" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Favorites">
@@ -68,40 +104,104 @@
                                     <color key="baseBackgroundColor" systemColor="systemTealColor"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qmn-bp-m5W">
-                                <rect key="frame" x="284" y="47" width="90" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="APP NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Yi-RE-Kxs">
+                                <rect key="frame" x="134" y="47" width="130" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UEo-az-z2k" userLabel="AppInfo">
+                                <rect key="frame" x="312" y="47" width="45" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Settings">
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <segue destination="wER-ET-SOk" kind="presentation" modalPresentationStyle="fullScreen" id="P79-Bh-vtY"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Info Icon" translatesAutoresizingMaskIntoConstraints="NO" id="Kbz-Wh-bkF">
+                                <rect key="frame" x="304" y="31" width="60" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <searchBar contentMode="redraw" fixedFrame="YES" text="" translatesAutoresizingMaskIntoConstraints="NO" id="zA8-KP-mIQ">
+                                <rect key="frame" x="-1" y="256" width="390" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" systemColor="opaqueSeparatorColor"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="S0g-u5-iXT"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nm0-hQ-Ady" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48" y="6"/>
+        </scene>
+        <!--SearchViewController-->
+        <scene sceneID="ZCb-ii-bFu">
+            <objects>
+                <viewController id="Iqy-Ds-3Ui" userLabel="SearchViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Lw-5o-0dT">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LM8-eb-FDo">
+                                <rect key="frame" x="16" y="45" width="90" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Back">
                                     <color key="baseBackgroundColor" systemColor="systemBrownColor"/>
                                 </buttonConfiguration>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SEARCH" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ndi-vO-lUH">
+                                <rect key="frame" x="143" y="51" width="105" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <searchBar contentMode="redraw" fixedFrame="YES" text="" translatesAutoresizingMaskIntoConstraints="NO" id="8W4-hn-NWV">
+                                <rect key="frame" x="-1" y="94" width="390" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" systemColor="opaqueSeparatorColor"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lkA-Rm-E6W">
+                                <rect key="frame" x="24" y="148" width="89" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="RECENT"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FpJ-6R-sgT">
+                                <rect key="frame" x="285" y="148" width="89" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="RECENT"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jCE-vw-Ynm">
+                                <rect key="frame" x="151" y="148" width="89" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="RECENT"/>
+                            </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="BW1-Hs-iYE"/>
                         <color key="backgroundColor" systemColor="systemGray5Color"/>
-                        <color key="tintColor" systemColor="systemGray5Color"/>
                     </view>
-                    <connections>
-                        <outlet property="searchDisplayController" destination="hip-Dh-xIw" id="wCZ-id-fBj"/>
-                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <searchDisplayController id="hip-Dh-xIw">
-                    <connections>
-                        <outlet property="delegate" destination="BYZ-38-t0r" id="hP6-Ag-lSY"/>
-                        <outlet property="searchBar" destination="8OD-LI-d6a" id="1bN-n2-dbQ"/>
-                        <outlet property="searchContentsController" destination="BYZ-38-t0r" id="UaA-mP-SDB"/>
-                        <outlet property="searchResultsDataSource" destination="BYZ-38-t0r" id="f7m-kW-4Y0"/>
-                        <outlet property="searchResultsDelegate" destination="BYZ-38-t0r" id="V9f-yG-v55"/>
-                    </connections>
-                </searchDisplayController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NuK-WC-NcT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="47.692307692307693" y="-2.1327014218009479"/>
+            <point key="canvasLocation" x="778" y="679"/>
         </scene>
-        <!--View Controller-->
+        <!--ChemicalCardViewController-->
         <scene sceneID="Zj1-bP-6G5">
             <objects>
-                <viewController id="6uG-h1-jUN" sceneMemberID="viewController">
+                <viewController id="6uG-h1-jUN" userLabel="ChemicalCardViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jNW-Vf-lCl">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -157,6 +257,9 @@
                                         <buttonConfiguration key="configuration" style="filled" title="Dismiss">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="0.0"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="41e-Ng-JAL" kind="presentation" modalPresentationStyle="fullScreen" id="1Ia-g0-xnA"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rmC-w8-gqq">
                                         <rect key="frame" x="145" y="175" width="127" height="67"/>
@@ -166,6 +269,9 @@
                                         <buttonConfiguration key="configuration" style="filled" title="Never Show Again">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="0.0"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="41e-Ng-JAL" kind="presentation" modalPresentationStyle="fullScreen" id="eDZ-Tz-c6Z"/>
+                                        </connections>
                                     </button>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="THE USE OF THIS APP IS NOT A SUBSITUTE FOR SOUND CLINICAL JUDGEMENT." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2M9-vu-X2b">
                                         <rect key="frame" x="20" y="91" width="240" height="69"/>
@@ -203,7 +309,15 @@
             <point key="canvasLocation" x="-741.53846153846155" y="-2.1327014218009479"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="P79-Bh-vtY"/>
+        <segue reference="0xt-Bo-XKO"/>
+    </inferredMetricsTieBreakers>
     <resources>
+        <image name="Info Icon" width="752" height="718"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
