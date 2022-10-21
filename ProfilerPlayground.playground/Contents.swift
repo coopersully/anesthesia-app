@@ -1,6 +1,23 @@
 import Foundation
 import UIKit
 
+
+func printNames(response: ChemicalResponse) -> Void {
+    
+    print(response.data![0].name)
+    print()
+    
+    let altNames = response.data![0].altNames
+    
+    print("Trade Names:")
+    print(altNames.trade?.joined(separator: ", "))
+    print()
+    
+    print("Generic Names:")
+    print(altNames.generic?.joined(separator: ", "))
+    print()
+}
+
 let query = "butorphanol"
 
 // Build web request URL
@@ -22,11 +39,9 @@ let dataTask = session.dataTask(with: url!) { (data, response, error) in
             
             // Print retrieved & parsed data
             print("ID: ", response.data![0].id)
-            print("NAME: ", response.data![0].name)
+            print()
             
-            let altNames = response.data![0].altNames
-            print("ALT NAMES (GENERIC): ", altNames.generic!)
-            print("ALT NAMES (GENERIC): ", altNames.trade!)
+            printNames(response: response)
             
         } catch {
             // Catch errors that occur while parsing
