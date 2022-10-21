@@ -3,18 +3,17 @@ import UIKit
 
 
 func printNames(response: ChemicalResponse) -> Void {
-    
     print(response.data![0].name)
     print()
     
     let altNames = response.data![0].altNames
     
     print("Trade Names:")
-    print(altNames.trade?.joined(separator: ", "))
+    print(altNames.trade?.joined(separator: ", ") ?? "")
     print()
     
     print("Generic Names:")
-    print(altNames.generic?.joined(separator: ", "))
+    print(altNames.generic?.joined(separator: ", ") ?? "")
     print()
 }
 
