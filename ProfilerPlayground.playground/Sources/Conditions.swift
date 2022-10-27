@@ -9,7 +9,7 @@ public struct ConditionData: Codable {
     public var id: String = ""
     public var name: String = ""
     public var altNames: ConditionNames
-    public var terms: [ConditionTerm]?
+    //public var terms: [ConditionTerm]?
 }
 
 public struct ConditionNames: Codable {
